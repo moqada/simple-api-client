@@ -1,29 +1,78 @@
 # simple-api-client
 
 [![NPM version][npm-image]][npm-url]
-[![NPM downloads][npm-download-image]][npm-download-url]
 [![Build Status][travis-image]][travis-url]
 [![Coverage Status][codecov-image]][codecov-url]
 [![Dependency Status][daviddm-image]][daviddm-url]
 [![DevDependency Status][daviddm-dev-image]][daviddm-dev-url]
 [![License][license-image]][license-url]
 
-Simple API Client for JavaScript
+Simple API Client for JavaScript.
 
+***WIP**
 
 ## Installation
 
 ```
-npm install --save simple-api-client
+npm install --save @moqada/simple-api-client
 ```
-
 
 ## Usage
 
-[npm-url]: https://www.npmjs.com/package/simple-api-client
-[npm-image]: https://img.shields.io/npm/v/simple-api-client.svg?style=flat-square
-[npm-download-url]: https://www.npmjs.com/package/simple-api-client
-[npm-download-image]: https://img.shields.io/npm/dt/simple-api-client.svg?style=flat-square
+```javascript
+import SimpleAPIClient from '@moqada/simple-api-client';
+
+class APIClinet extends SimpleAPIClient {
+
+  constructor({token, custom}: {token: string, custom: string}) {
+    super();
+    this.token = token;
+    this.custom = custom;
+  }
+
+  getDefaultOptions(): Object {
+    return {
+      headers: {
+        'Authorization': `Bearer ${this.token}`,
+        'X-Custom-Header': `${this.custom}`
+      }
+    };
+  }
+
+  toResponse(error: ?Object, response: ?Object): Object {
+    if (error) {
+      return {error};
+    }
+    return {
+      body: response.body
+    };
+  }
+
+  getUsers(query): Promise<{body: Object}, {error: Object}> {
+    return this.get('/users', {query});
+  }
+}
+APIClinet.endpoint = 'http://api.example.com/v1'
+
+const clinet = new APIClinet({token: 'xxxxxxxyyyyy', custom: 'foobar'});
+client.getUsers({offset: 20, limit: 10}).then(({body}) => {
+  console.log(body);
+}).catch(({error}) => {
+  console.error(error);
+}):
+```
+
+## Todo
+
+- [] Test
+
+## Related
+
+- [@moqada/simple-api-client-generator](https://github.com/moqada/simple-api-client-generator) - A CLI generating API Client from JSON Hyper Schema
+
+
+[npm-url]: https://www.npmjs.com/package/@moqada/simple-api-client
+[npm-image]: https://img.shields.io/npm/v/@moqada/simple-api-client.svg?style=flat-square
 [travis-url]: https://travis-ci.org/moqada/simple-api-client
 [travis-image]: https://img.shields.io/travis/moqada/simple-api-client.svg?style=flat-square
 [daviddm-url]: https://david-dm.org/moqada/simple-api-client
@@ -33,4 +82,4 @@ npm install --save simple-api-client
 [codecov-url]: https://codecov.io/github/moqada/simple-api-client
 [codecov-image]: https://img.shields.io/codecov/c/github/moqada/simple-api-client.svg?style=flat-square
 [license-url]: http://opensource.org/licenses/MIT
-[license-image]: https://img.shields.io/npm/l/simple-api-client.svg?style=flat-square
+[license-image]: https://img.shields.io/github/license/moqada/simple-api-client?style=flat-square
