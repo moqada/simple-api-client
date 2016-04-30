@@ -64,7 +64,7 @@ client.getUsers({offset: 20, limit: 10}).then(({body}) => {
 
 ## Todo
 
-- [] Test
+- [ ] Test
 
 ## Related
 
