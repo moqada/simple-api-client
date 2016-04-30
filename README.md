@@ -9,7 +9,7 @@
 
 Simple API Client for JavaScript.
 
-***WIP**
+***WIP***
 
 ## Installation
 
