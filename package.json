@@ -24,7 +24,7 @@
     "esdoc": "^0.4.6",
     "eslint": "^2.9.0",
     "eslint-config-moqada": "^15.0.0",
-    "eslint-plugin-flow-vars": "^0.3.0",
+    "eslint-plugin-flow-vars": "^0.4.0",
     "eslint-plugin-node": "^1.1.0",
     "flow-bin": "^0.24.0",
     "gh-pages": "^0.11.0",
