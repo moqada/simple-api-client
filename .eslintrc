@@ -3,3 +3,5 @@ extends:
   - moqada
   - moqada/node
   - moqada/flow
+rules:
+  node/no-unsupported-features: 0
