@@ -14,6 +14,7 @@ export type APIOption = {
 export default class SimpleAPIClient {
 
   static endpoint: string;
+  static timeout: ?number;
 
   /**
    * get default options
@@ -60,6 +61,9 @@ export default class SimpleAPIClient {
     }
     if (Object.keys(data).length) {
       req = req.send(data);
+    }
+    if (this.constructor.timeout) {
+      req = req.timeout(this.constructor.timeout);
     }
     return new Promise((resolve, reject) => {
       req.end((err, res) => {
