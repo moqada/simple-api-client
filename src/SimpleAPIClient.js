@@ -4,7 +4,8 @@ import request from 'superagent';
 export type APIOption = {
   data?: {[key: string]: any},
   query?: {[key: string]: any},
-  headers?: {[key: string]: string}
+  headers?: {[key: string]: string},
+  withCookies?: boolean
 };
 
 
@@ -51,6 +52,7 @@ export default class SimpleAPIClient {
     }, defaultOptions.headers || {}, options.headers || {});
     const data = Object.assign({}, defaultOptions.data || {}, options.data || {});
     const query = Object.assign({}, defaultOptions.query || {}, options.query || {});
+    const withCookies = !!(this.getDefaultOptions().withCookies || options.withCookies);
     let req = request[method](`${this.constructor.endpoint}${path}`);
 
     Object.keys(headers).forEach(key => {
@@ -64,6 +66,9 @@ export default class SimpleAPIClient {
     }
     if (this.constructor.timeout) {
       req = req.timeout(this.constructor.timeout);
+    }
+    if (withCookies) {
+      req = req.withCredentials();
     }
     return new Promise((resolve, reject) => {
       req.end((err, res) => {
