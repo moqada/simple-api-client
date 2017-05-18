@@ -1,5 +1,7 @@
 # simple-api-client
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/moqada/simple-api-client.svg)](https://greenkeeper.io/)
+
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Coverage Status][codecov-image]][codecov-url]
