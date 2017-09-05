@@ -1,3 +1,18 @@
+<a name="0.3.0"></a>
+# [0.3.0](https://github.com/moqada/simple-api-client/compare/v0.2.0...v0.3.0) (2017-09-05)
+
+
+### Features
+
+* **simple-api-client:** Change endpoint and timeout settings to instance properties ([56b54e6](https://github.com/moqada/simple-api-client/commit/56b54e6))
+
+
+### BREAKING CHANGES
+
+* **simple-api-client:** Replace endpoint and timeout from class properties to instance properties.
+
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/moqada/simple-api-client/compare/v0.1.1...v0.2.0) (2016-09-09)
 
