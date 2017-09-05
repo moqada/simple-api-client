@@ -13,8 +13,20 @@ export type APIOption = {
  */
 export default class SimpleAPIClient {
 
-  static endpoint: string;
-  static timeout: ?number;
+  endpoint: string;
+  timeout: ?number;
+
+  /**
+   * constructor
+   *
+   * @param {Object} props - props
+   * @param {string} props.endpoint - API endpoint
+   * @param {number} [props.timeout] - timeout seconds
+   */
+  constructor(props: {endpoint: string, timeout?: number}) {
+    this.endpoint = props.endpoint;
+    this.timeout = props.timeout;
+  }
 
   /**
    * get default options
@@ -51,7 +63,7 @@ export default class SimpleAPIClient {
     }, defaultOptions.headers || {}, options.headers || {});
     const data = Object.assign({}, defaultOptions.data || {}, options.data || {});
     const query = Object.assign({}, defaultOptions.query || {}, options.query || {});
-    let req = request[method](`${this.constructor.endpoint}${path}`);
+    let req = request[method](`${this.endpoint}${path}`);
 
     Object.keys(headers).forEach(key => {
       req = req.set(key, headers[key]);
@@ -62,8 +74,8 @@ export default class SimpleAPIClient {
     if (Object.keys(data).length) {
       req = req.send(data);
     }
-    if (this.constructor.timeout) {
-      req = req.timeout(this.constructor.timeout);
+    if (this.timeout) {
+      req = req.timeout(this.timeout);
     }
     return new Promise((resolve, reject) => {
       req.end((err, res) => {

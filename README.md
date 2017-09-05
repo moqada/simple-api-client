@@ -27,7 +27,7 @@ import SimpleAPIClient from '@moqada/simple-api-client';
 class APIClinet extends SimpleAPIClient {
 
   constructor({token, custom}: {token: string, custom: string}) {
-    super();
+    super({endpoint: 'http://api.example.com/v1'});
     this.token = token;
     this.custom = custom;
   }
@@ -54,7 +54,6 @@ class APIClinet extends SimpleAPIClient {
     return this.get('/users', {query});
   }
 }
-APIClinet.endpoint = 'http://api.example.com/v1'
 
 const clinet = new APIClinet({token: 'xxxxxxxyyyyy', custom: 'foobar'});
 client.getUsers({offset: 20, limit: 10}).then(({body}) => {
