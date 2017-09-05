@@ -1,3 +1,12 @@
+<a name="0.3.1"></a>
+## [0.3.1](https://github.com/moqada/simple-api-client/compare/v0.3.0...v0.3.1) (2017-09-05)
+
+### Chores
+
+* **chore(esdoc):** Migrate ESDoc settings to v1.0 ([ecafa98](https://github.com/moqada/simple-api-client/commit/ecafa98))
+
+
+
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/moqada/simple-api-client/compare/v0.2.0...v0.3.0) (2017-09-05)
 
