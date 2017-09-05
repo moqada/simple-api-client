@@ -1,0 +1,1026 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/SimpleAPIClient.js",
+    "content": "/* @flow */\nimport request from 'superagent';\n\nexport type APIOption = {\n  data?: {[key: string]: any},\n  query?: {[key: string]: any},\n  headers?: {[key: string]: string}\n};\n\n\n/**\n * Simple API Client\n */\nexport default class SimpleAPIClient {\n\n  endpoint: string;\n  timeout: ?number;\n\n  /**\n   * constructor\n   *\n   * @param {Object} props - props\n   * @param {string} props.endpoint - API endpoint\n   * @param {number} [props.timeout] - timeout seconds\n   */\n  constructor(props: {endpoint: string, timeout?: number}) {\n    this.endpoint = props.endpoint;\n    this.timeout = props.timeout;\n  }\n\n  /**\n   * get default options\n   *\n   * @return {Object}\n   */\n  getDefaultOptions(): APIOption {\n    return {};\n  }\n\n  /**\n   * superagent response to custom response\n   *\n   * @param {Object|void} error - superagent response object\n   * @param {Object|void} response - superagent response object\n   * @return {Object}\n   */\n  toResponse(error: ?Object, response: ?Object): Object {\n    return {error, response};\n  }\n\n  /**\n   * Send Request\n   *\n   * @param {string} method - request method\n   * @param {string} path - url path\n   * @param {APIOption} options - options\n   * @return {Promise<Object, Error>}\n   */\n  send(method: string, path: string, options: APIOption = {}): Promise<*> {\n    const defaultOptions = this.getDefaultOptions();\n    const headers = Object.assign({\n      Accept: 'application/json'\n    }, defaultOptions.headers || {}, options.headers || {});\n    const data = Object.assign({}, defaultOptions.data || {}, options.data || {});\n    const query = Object.assign({}, defaultOptions.query || {}, options.query || {});\n    let req = request[method](`${this.endpoint}${path}`);\n\n    Object.keys(headers).forEach(key => {\n      req = req.set(key, headers[key]);\n    });\n    if (Object.keys(query).length) {\n      req = req.query(query);\n    }\n    if (Object.keys(data).length) {\n      req = req.send(data);\n    }\n    if (this.timeout) {\n      req = req.timeout(this.timeout);\n    }\n    return new Promise((resolve, reject) => {\n      req.end((err, res) => {\n        const response = this.toResponse(err, res);\n        if (err) {\n          return reject(response);\n        }\n        return resolve(response);\n      });\n    });\n  }\n\n  /**\n   * DELETE Request\n   *\n   * @param {string} path - url path\n   * @param {Object} opts - options\n   * @return {Promise<Object, Error>}\n   */\n  delete(path: string, opts: APIOption = {}): Promise<*> {\n    return this.send('delete', path, opts);\n  }\n\n  /**\n   * GET Request\n   *\n   * @param {string} path - url path\n   * @param {Object} opts - options\n   * @return {Promise<Object, Error>}\n   */\n  get(path: string, opts: APIOption = {}): Promise<*> {\n    return this.send('get', path, opts);\n  }\n\n  /**\n   * PATCH Request\n   *\n   * @param {string} path - URL path\n   * @param {APIOption} opts - options\n   * @return {Promise<Object, Error>}\n   */\n  patch(path: string, opts: APIOption = {}): Promise<*> {\n    return this.send('patch', path, opts);\n  }\n\n  /**\n   * PUT Request\n   *\n   * @param {string} path - URL path\n   * @param {APIOption} opts - options\n   * @return {Promise<Object, Error>}\n   */\n  put(path: string, opts: APIOption = {}): Promise<*> {\n    return this.send('put', path, opts);\n  }\n\n  /**\n   * POST Request\n   *\n   * @param {string} path - URL path\n   * @param {APIOption} opts - options\n   * @return {Promise<Object, Error>}\n   */\n  post(path: string, opts: APIOption = {}): Promise<*> {\n    return this.send('post', path, opts);\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/moqada/work/projects/moqada/simple-api-client/src/SimpleAPIClient.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "class",
+    "name": "SimpleAPIClient",
+    "memberof": "src/SimpleAPIClient.js",
+    "static": true,
+    "longname": "src/SimpleAPIClient.js~SimpleAPIClient",
+    "access": "public",
+    "export": true,
+    "importPath": "@moqada/simple-api-client/src/SimpleAPIClient.js",
+    "importStyle": "SimpleAPIClient",
+    "description": "Simple API Client",
+    "lineNumber": 14,
+    "interface": false
+  },
+  {
+    "__docId__": 50,
+    "kind": "member",
+    "name": "endpoint",
+    "memberof": "src/SimpleAPIClient.js~SimpleAPIClient",
+    "static": false,
+    "longname": "src/SimpleAPIClient.js~SimpleAPIClient#endpoint",
+    "access": "public",
+    "description": "",
+    "lineNumber": 16,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 51,
+    "kind": "member",
+    "name": "timeout",
+    "memberof": "src/SimpleAPIClient.js~SimpleAPIClient",
+    "static": false,
+    "longname": "src/SimpleAPIClient.js~SimpleAPIClient#timeout",
+    "access": "public",
+    "description": "",
+    "lineNumber": 17,
+    "type": {
+      "nullable": null,
+      "types": [
+        "nullable"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/SimpleAPIClient.js~SimpleAPIClient",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/SimpleAPIClient.js~SimpleAPIClient#constructor",
+    "access": "public",
+    "description": "constructor",
+    "lineNumber": 26,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props",
+        "description": "props"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props.endpoint",
+        "description": "API endpoint"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "props.timeout",
+        "description": "timeout seconds"
+      }
+    ]
+  },
+  {
+    "__docId__": 55,
+    "kind": "method",
+    "name": "getDefaultOptions",
+    "memberof": "src/SimpleAPIClient.js~SimpleAPIClient",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/SimpleAPIClient.js~SimpleAPIClient#getDefaultOptions",
+    "access": "public",
+    "description": "get default options  ",
+    "lineNumber": 36,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 56,
+    "kind": "method",
+    "name": "toResponse",
+    "memberof": "src/SimpleAPIClient.js~SimpleAPIClient",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/SimpleAPIClient.js~SimpleAPIClient#toResponse",
+    "access": "public",
+    "description": "superagent response to custom response  ",
+    "lineNumber": 47,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object",
+          "void"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "error",
+        "description": "superagent response object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object",
+          "void"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "response",
+        "description": "superagent response object"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "method",
+    "name": "send",
+    "memberof": "src/SimpleAPIClient.js~SimpleAPIClient",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/SimpleAPIClient.js~SimpleAPIClient#send",
+    "access": "public",
+    "description": "Send Request  ",
+    "lineNumber": 59,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "method",
+        "description": "request method"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "path",
+        "description": "url path"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "APIOption"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "options",
+        "description": "options"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object, Error>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "method",
+    "name": "delete",
+    "memberof": "src/SimpleAPIClient.js~SimpleAPIClient",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/SimpleAPIClient.js~SimpleAPIClient#delete",
+    "access": "public",
+    "description": "DELETE Request  ",
+    "lineNumber": 98,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "path",
+        "description": "url path"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "opts",
+        "description": "options"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object, Error>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "method",
+    "name": "get",
+    "memberof": "src/SimpleAPIClient.js~SimpleAPIClient",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/SimpleAPIClient.js~SimpleAPIClient#get",
+    "access": "public",
+    "description": "GET Request  ",
+    "lineNumber": 109,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "path",
+        "description": "url path"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "opts",
+        "description": "options"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object, Error>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "method",
+    "name": "patch",
+    "memberof": "src/SimpleAPIClient.js~SimpleAPIClient",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/SimpleAPIClient.js~SimpleAPIClient#patch",
+    "access": "public",
+    "description": "PATCH Request  ",
+    "lineNumber": 120,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "path",
+        "description": "URL path"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "APIOption"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "opts",
+        "description": "options"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object, Error>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "method",
+    "name": "put",
+    "memberof": "src/SimpleAPIClient.js~SimpleAPIClient",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/SimpleAPIClient.js~SimpleAPIClient#put",
+    "access": "public",
+    "description": "PUT Request  ",
+    "lineNumber": 131,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "path",
+        "description": "URL path"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "APIOption"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "opts",
+        "description": "options"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object, Error>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "method",
+    "name": "post",
+    "memberof": "src/SimpleAPIClient.js~SimpleAPIClient",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/SimpleAPIClient.js~SimpleAPIClient#post",
+    "access": "public",
+    "description": "POST Request  ",
+    "lineNumber": 142,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "path",
+        "description": "URL path"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "APIOption"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "opts",
+        "description": "options"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object, Error>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# simple-api-client\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/moqada/simple-api-client.svg)](https://greenkeeper.io/)\n\n[![NPM version][npm-image]][npm-url]\n[![Build Status][travis-image]][travis-url]\n[![Coverage Status][codecov-image]][codecov-url]\n[![Dependency Status][daviddm-image]][daviddm-url]\n[![DevDependency Status][daviddm-dev-image]][daviddm-dev-url]\n[![License][license-image]][license-url]\n\nSimple API Client for JavaScript.\n\n***WIP***\n\n## Installation\n\n```\nnpm install --save @moqada/simple-api-client\n```\n\n## Usage\n\n```javascript\nimport SimpleAPIClient from '@moqada/simple-api-client';\n\nclass APIClinet extends SimpleAPIClient {\n\n  constructor({token, custom}: {token: string, custom: string}) {\n    super({endpoint: 'http://api.example.com/v1'});\n    this.token = token;\n    this.custom = custom;\n  }\n\n  getDefaultOptions(): Object {\n    return {\n      headers: {\n        'Authorization': `Bearer ${this.token}`,\n        'X-Custom-Header': `${this.custom}`\n      }\n    };\n  }\n\n  toResponse(error: ?Object, response: ?Object): Object {\n    if (error) {\n      return {error};\n    }\n    return {\n      body: response.body\n    };\n  }\n\n  getUsers(query): Promise<{body: Object}, {error: Object}> {\n    return this.get('/users', {query});\n  }\n}\n\nconst clinet = new APIClinet({token: 'xxxxxxxyyyyy', custom: 'foobar'});\nclient.getUsers({offset: 20, limit: 10}).then(({body}) => {\n  console.log(body);\n}).catch(({error}) => {\n  console.error(error);\n}):\n```\n\n## Todo\n\n- [ ] Test\n\n## Related\n\n- [@moqada/simple-api-client-generator](https://github.com/moqada/simple-api-client-generator) - A CLI generating API Client from JSON Hyper Schema\n\n\n[npm-url]: https://www.npmjs.com/package/@moqada/simple-api-client\n[npm-image]: https://img.shields.io/npm/v/@moqada/simple-api-client.svg?style=flat-square\n[travis-url]: https://travis-ci.org/moqada/simple-api-client\n[travis-image]: https://img.shields.io/travis/moqada/simple-api-client.svg?style=flat-square\n[daviddm-url]: https://david-dm.org/moqada/simple-api-client\n[daviddm-image]: https://img.shields.io/david/moqada/simple-api-client.svg?style=flat-square\n[daviddm-dev-url]: https://david-dm.org/moqada/simple-api-client#info=devDependencies\n[daviddm-dev-image]: https://img.shields.io/david/dev/moqada/simple-api-client.svg?style=flat-square\n[codecov-url]: https://codecov.io/github/moqada/simple-api-client\n[codecov-image]: https://img.shields.io/codecov/c/github/moqada/simple-api-client.svg?style=flat-square\n[license-url]: http://opensource.org/licenses/MIT\n[license-image]: https://img.shields.io/github/license/moqada/simple-api-client?style=flat-square\n",
+    "longname": "/Users/moqada/work/projects/moqada/simple-api-client/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"@moqada/simple-api-client\",\n  \"description\": \"Simple API Client for JavaScript\",\n  \"version\": \"0.3.1\",\n  \"author\": \"moqada <moqada@gmail.com>\",\n  \"bugs\": {\n    \"url\": \"https://github.com/moqada/simple-api-client/issues\"\n  },\n  \"dependencies\": {\n    \"superagent\": \"^3.0.0\"\n  },\n  \"devDependencies\": {\n    \"babel-cli\": \"^6.7.7\",\n    \"babel-core\": \"^6.7.7\",\n    \"babel-eslint\": \"^7.0.0\",\n    \"babel-plugin-add-module-exports\": \"^0.2.0\",\n    \"babel-plugin-espower\": \"^2.1.2\",\n    \"babel-plugin-transform-class-properties\": \"^6.6.0\",\n    \"babel-plugin-transform-flow-strip-types\": \"^6.7.0\",\n    \"babel-preset-es2015\": \"^6.13.0\",\n    \"chokidar-cli\": \"^1.2.0\",\n    \"codecov\": \"^2.1.0\",\n    \"cpx\": \"^1.3.1\",\n    \"esdoc\": \"^1.0.1\",\n    \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\n    \"esdoc-flow-type-plugin\": \"^1.0.1\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^4.3.0\",\n    \"eslint-config-moqada\": \"^18.0.0\",\n    \"eslint-plugin-flow-vars\": \"^0.5.0\",\n    \"eslint-plugin-node\": \"^5.1.1\",\n    \"flow-bin\": \"^0.47.0\",\n    \"gh-pages\": \"^1.0.0\",\n    \"isparta\": \"^4.0.0\",\n    \"mocha\": \"^3.0.0\",\n    \"npm-run-all\": \"^4.0.0\",\n    \"power-assert\": \"^1.3.1\"\n  },\n  \"files\": [\n    \"lib\"\n  ],\n  \"homepage\": \"https://github.com/moqada/simple-api-client#readme\",\n  \"keywords\": [\n    \"api\"\n  ],\n  \"license\": \"MIT\",\n  \"main\": \"lib/SimpleAPIClient.js\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"https://github.com/moqada/simple-api-client.git\"\n  },\n  \"scripts\": {\n    \"build\": \"npm-run-all -p build:*\",\n    \"build:js\": \"babel src --out-dir lib\",\n    \"build:interface\": \"mkdir lib && cp src/SimpleAPIClient.js lib/SimpleAPIClient.js.flow\",\n    \"codecov\": \"codecov\",\n    \"deploy\": \"npm-run-all doc gh-pages\",\n    \"doc\": \"esdoc -c esdoc.json\",\n    \"gh-pages\": \"gh-pages -d doc\",\n    \"lint\": \"eslint --cache {src,test}\",\n    \"postpublish\": \"npm run deploy\",\n    \"prebuild\": \"rm -rf lib\",\n    \"predoc\": \"rm -rf doc\",\n    \"prepublish\": \"git diff --exit-code && npm run --if-present build\",\n    \"pretest\": \"rm -rf coverage\",\n    \"stop\": \"flow stop\",\n    \"test\": \"npm-run-all lint test:*\",\n    \"test:coverage\": \"babel-node $(npm bin)/isparta cover --report text --report html --report lcovonly _mocha -- test/{**/,}*spec.js\",\n    \"test:flow\": \"flow\",\n    \"watch\": \"npm-run-all --parallel watch:*\",\n    \"watch:flow\": \"flow & chokidar src -c flow\",\n    \"watch:lint\": \"chokidar src test -c 'npm run -s lint'\",\n    \"watch:src\": \"npm run build:js -- --watch\",\n    \"watch:test\": \"mocha --watch test/{**/,}*spec.js\"\n  }\n}\n",
+    "longname": "/Users/moqada/work/projects/moqada/simple-api-client/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

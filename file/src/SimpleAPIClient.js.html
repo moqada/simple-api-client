@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/SimpleAPIClient.js | @moqada/simple-api-client</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Simple API Client for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@moqada/simple-api-client"><meta property="twitter:description" content="Simple API Client for JavaScript"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/moqada/simple-api-client.git"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/SimpleAPIClient.js~SimpleAPIClient.html">SimpleAPIClient</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/SimpleAPIClient.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/* @flow */
+import request from &apos;superagent&apos;;
+
+export type APIOption = {
+  data?: {[key: string]: any},
+  query?: {[key: string]: any},
+  headers?: {[key: string]: string}
+};
+
+
+/**
+ * Simple API Client
+ */
+export default class SimpleAPIClient {
+
+  endpoint: string;
+  timeout: ?number;
+
+  /**
+   * constructor
+   *
+   * @param {Object} props - props
+   * @param {string} props.endpoint - API endpoint
+   * @param {number} [props.timeout] - timeout seconds
+   */
+  constructor(props: {endpoint: string, timeout?: number}) {
+    this.endpoint = props.endpoint;
+    this.timeout = props.timeout;
+  }
+
+  /**
+   * get default options
+   *
+   * @return {Object}
+   */
+  getDefaultOptions(): APIOption {
+    return {};
+  }
+
+  /**
+   * superagent response to custom response
+   *
+   * @param {Object|void} error - superagent response object
+   * @param {Object|void} response - superagent response object
+   * @return {Object}
+   */
+  toResponse(error: ?Object, response: ?Object): Object {
+    return {error, response};
+  }
+
+  /**
+   * Send Request
+   *
+   * @param {string} method - request method
+   * @param {string} path - url path
+   * @param {APIOption} options - options
+   * @return {Promise&lt;Object, Error&gt;}
+   */
+  send(method: string, path: string, options: APIOption = {}): Promise&lt;*&gt; {
+    const defaultOptions = this.getDefaultOptions();
+    const headers = Object.assign({
+      Accept: &apos;application/json&apos;
+    }, defaultOptions.headers || {}, options.headers || {});
+    const data = Object.assign({}, defaultOptions.data || {}, options.data || {});
+    const query = Object.assign({}, defaultOptions.query || {}, options.query || {});
+    let req = request[method](`${this.endpoint}${path}`);
+
+    Object.keys(headers).forEach(key =&gt; {
+      req = req.set(key, headers[key]);
+    });
+    if (Object.keys(query).length) {
+      req = req.query(query);
+    }
+    if (Object.keys(data).length) {
+      req = req.send(data);
+    }
+    if (this.timeout) {
+      req = req.timeout(this.timeout);
+    }
+    return new Promise((resolve, reject) =&gt; {
+      req.end((err, res) =&gt; {
+        const response = this.toResponse(err, res);
+        if (err) {
+          return reject(response);
+        }
+        return resolve(response);
+      });
+    });
+  }
+
+  /**
+   * DELETE Request
+   *
+   * @param {string} path - url path
+   * @param {Object} opts - options
+   * @return {Promise&lt;Object, Error&gt;}
+   */
+  delete(path: string, opts: APIOption = {}): Promise&lt;*&gt; {
+    return this.send(&apos;delete&apos;, path, opts);
+  }
+
+  /**
+   * GET Request
+   *
+   * @param {string} path - url path
+   * @param {Object} opts - options
+   * @return {Promise&lt;Object, Error&gt;}
+   */
+  get(path: string, opts: APIOption = {}): Promise&lt;*&gt; {
+    return this.send(&apos;get&apos;, path, opts);
+  }
+
+  /**
+   * PATCH Request
+   *
+   * @param {string} path - URL path
+   * @param {APIOption} opts - options
+   * @return {Promise&lt;Object, Error&gt;}
+   */
+  patch(path: string, opts: APIOption = {}): Promise&lt;*&gt; {
+    return this.send(&apos;patch&apos;, path, opts);
+  }
+
+  /**
+   * PUT Request
+   *
+   * @param {string} path - URL path
+   * @param {APIOption} opts - options
+   * @return {Promise&lt;Object, Error&gt;}
+   */
+  put(path: string, opts: APIOption = {}): Promise&lt;*&gt; {
+    return this.send(&apos;put&apos;, path, opts);
+  }
+
+  /**
+   * POST Request
+   *
+   * @param {string} path - URL path
+   * @param {APIOption} opts - options
+   * @return {Promise&lt;Object, Error&gt;}
+   */
+  post(path: string, opts: APIOption = {}): Promise&lt;*&gt; {
+    return this.send(&apos;post&apos;, path, opts);
+  }
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.2)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
