@@ -3,16 +3,14 @@ import request from 'superagent';
 
 export type APIOption = {
   data?: {[key: string]: any},
-  query?: {[key: string]: any},
-  headers?: {[key: string]: string}
+  headers?: {[key: string]: string},
+  query?: {[key: string]: any}
 };
-
 
 /**
  * Simple API Client
  */
 export default class SimpleAPIClient {
-
   endpoint: string;
   timeout: ?number;
 
@@ -58,9 +56,11 @@ export default class SimpleAPIClient {
    */
   send(method: string, path: string, options: APIOption = {}): Promise<*> {
     const defaultOptions = this.getDefaultOptions();
-    const headers = Object.assign({
-      Accept: 'application/json'
-    }, defaultOptions.headers || {}, options.headers || {});
+    const headers = Object.assign(
+      {Accept: 'application/json'},
+      defaultOptions.headers || {},
+      options.headers || {}
+    );
     const data = Object.assign({}, defaultOptions.data || {}, options.data || {});
     const query = Object.assign({}, defaultOptions.query || {}, options.query || {});
     let req = request[method](`${this.endpoint}${path}`);
