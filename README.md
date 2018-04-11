@@ -66,6 +66,7 @@ client.getUsers({offset: 20, limit: 10}).then(({body}) => {
 ## Todo
 
 - [ ] Test
+- [x] Support TypeScript (experimental)
 
 ## Related
 

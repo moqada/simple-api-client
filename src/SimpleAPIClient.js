@@ -1,4 +1,5 @@
 /* @flow */
+/* eslint-disable class-methods-use-this */
 import request from 'superagent';
 
 export type APIOption = {
@@ -10,7 +11,7 @@ export type APIOption = {
 /**
  * Simple API Client
  */
-export default class SimpleAPIClient {
+export default class SimpleAPIClient<APIResponse: Object = {error: any, response: any}> {
   endpoint: string;
   timeout: ?number;
 
@@ -42,7 +43,7 @@ export default class SimpleAPIClient {
    * @param {Object|void} response - superagent response object
    * @return {Object}
    */
-  toResponse(error: ?Object, response: ?Object): Object {
+  toResponse(error: any, response: any): Object {
     return {error, response};
   }
 
@@ -54,7 +55,7 @@ export default class SimpleAPIClient {
    * @param {APIOption} options - options
    * @return {Promise<Object, Error>}
    */
-  send(method: string, path: string, options: APIOption = {}): Promise<*> {
+  send(method: string, path: string, options: APIOption = {}): Promise<APIResponse> {
     const defaultOptions = this.getDefaultOptions();
     const headers = Object.assign(
       {Accept: 'application/json'},
@@ -95,7 +96,7 @@ export default class SimpleAPIClient {
    * @param {Object} opts - options
    * @return {Promise<Object, Error>}
    */
-  delete(path: string, opts: APIOption = {}): Promise<*> {
+  delete(path: string, opts: APIOption = {}): Promise<APIResponse> {
     return this.send('delete', path, opts);
   }
 
@@ -106,7 +107,7 @@ export default class SimpleAPIClient {
    * @param {Object} opts - options
    * @return {Promise<Object, Error>}
    */
-  get(path: string, opts: APIOption = {}): Promise<*> {
+  get(path: string, opts: APIOption = {}): Promise<APIResponse> {
     return this.send('get', path, opts);
   }
 
@@ -117,7 +118,7 @@ export default class SimpleAPIClient {
    * @param {APIOption} opts - options
    * @return {Promise<Object, Error>}
    */
-  patch(path: string, opts: APIOption = {}): Promise<*> {
+  patch(path: string, opts: APIOption = {}): Promise<APIResponse> {
     return this.send('patch', path, opts);
   }
 
@@ -128,7 +129,7 @@ export default class SimpleAPIClient {
    * @param {APIOption} opts - options
    * @return {Promise<Object, Error>}
    */
-  put(path: string, opts: APIOption = {}): Promise<*> {
+  put(path: string, opts: APIOption = {}): Promise<APIResponse> {
     return this.send('put', path, opts);
   }
 
@@ -139,7 +140,7 @@ export default class SimpleAPIClient {
    * @param {APIOption} opts - options
    * @return {Promise<Object, Error>}
    */
-  post(path: string, opts: APIOption = {}): Promise<*> {
+  post(path: string, opts: APIOption = {}): Promise<APIResponse> {
     return this.send('post', path, opts);
   }
 }
