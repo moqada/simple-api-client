@@ -1,3 +1,13 @@
+<a name="0.4.0"></a>
+# [0.4.0](https://github.com/moqada/simple-api-client/compare/v0.3.1...v0.4.0) (2018-04-17)
+
+
+### Features
+
+* **sac:** Support TypeScript ([2750750](https://github.com/moqada/simple-api-client/commit/2750750))
+
+
+
 <a name="0.3.1"></a>
 ## [0.3.1](https://github.com/moqada/simple-api-client/compare/v0.3.0...v0.3.1) (2017-09-05)
 
