@@ -10,6 +10,9 @@
     "superagent": "^3.8.2"
   },
   "devDependencies": {
+    "@types/mocha": "^5.0.0",
+    "@types/node": "^9.6.4",
+    "@types/superagent": "^3.5.8",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.2",
@@ -27,17 +30,26 @@
     "esdoc-standard-plugin": "^1.0.0",
     "eslint": "^4.19.1",
     "eslint-config-moqada": "^19.0.0",
-    "eslint-plugin-flow-vars": "^0.5.0",
+    "eslint-plugin-flowtype": "^2.46.1",
+    "eslint-plugin-import": "^2.10.0",
     "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-typescript": "^0.11.0",
     "flow-bin": "^0.70.0",
+    "flow-typed": "^2.4.0",
     "gh-pages": "^1.1.0",
     "isparta": "^4.0.0",
     "mocha": "^5.0.5",
+    "nock": "^9.2.5",
     "npm-run-all": "^4.1.2",
-    "power-assert": "^1.5.0"
+    "power-assert": "^1.5.0",
+    "prettier-eslint-cli": "^4.7.1",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.8.1",
+    "typescript-eslint-parser": "^14.0.0"
   },
   "files": [
-    "lib"
+    "lib",
+    "typescript/index.d.ts"
   ],
   "homepage": "https://github.com/moqada/simple-api-client#readme",
   "keywords": [
@@ -56,8 +68,13 @@
     "codecov": "codecov",
     "deploy": "npm-run-all doc gh-pages",
     "doc": "esdoc -c esdoc.json",
+    "format": "npm-run-all format:*",
+    "format:js": "prettier-eslint '{src,test}/{**/,}*.js' --write",
+    "format:ts": "prettier-eslint 'typescript/{**/,}*.ts' --write",
     "gh-pages": "gh-pages -d doc",
-    "lint": "eslint --cache {src,test}",
+    "lint": "npm-run-all lint:*",
+    "lint:js": "eslint --cache '{src,test}/**/*.js'",
+    "lint:ts": "eslint --cache 'typescript/**/*.ts'",
     "postpublish": "npm run deploy",
     "prebuild": "rm -rf lib",
     "predoc": "rm -rf doc",
@@ -67,10 +84,12 @@
     "test": "npm-run-all lint test:*",
     "test:coverage": "babel-node $(npm bin)/isparta cover --report text --report html --report lcovonly _mocha -- test/{**/,}*spec.js",
     "test:flow": "flow",
+    "test:ts": "tsc --project typescript --noEmit",
     "watch": "npm-run-all --parallel watch:*",
     "watch:flow": "flow & chokidar src -c flow",
     "watch:lint": "chokidar src test -c 'npm run -s lint'",
     "watch:src": "npm run build:js -- --watch",
     "watch:test": "mocha --watch test/{**/,}*spec.js"
-  }
+  },
+  "types": "./typescript/index.d.ts"
 }

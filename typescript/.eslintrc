@@ -1,0 +1,30 @@
+root: true
+parser: typescript-eslint-parser
+extends:
+  - moqada
+  - moqada/node
+plugins:
+  - typescript
+env:
+  mocha: true
+rules:
+  strict: off
+  # replace to ts compiler
+  node/no-unpublished-import: off
+  node/no-unsupported-features: off
+  node/no-missing-import: off
+  # https://github.com/eslint/typescript-eslint-parser/issues/416
+  no-undef: off
+  # no-unused-vars does not work
+  no-unused-vars: off
+  typescript/no-unused-vars: error
+  # no-useless-constructor does not work
+  no-useless-constructor: off
+  # does not work
+  valid-jsdoc: off
+  # for Triple-Slash Directives
+  spaced-comment:
+    - error
+    - always
+    - markers:
+      - /
