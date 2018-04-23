@@ -1,3 +1,41 @@
+<a name="0.5.0"></a>
+# [0.5.0](https://github.com/moqada/simple-api-client/compare/v0.4.0...v0.5.0) (2018-04-23)
+
+
+### Bug Fixes
+
+* **typescript:** Change module export styles ([fbde13b](https://github.com/moqada/simple-api-client/commit/fbde13b))
+
+
+### BREAKING CHANGES
+
+* **typescript:** Module import styles changed for JavaScript and TypeScript.
+
+JavaScript
+
+```javascript
+// before
+const SimpleAPIClient = require('@moqada/simple-api-client');
+const SimpleAPIClient from '@moqada/simple-api-client';
+
+// after: changed in require style
+const {SimpleAPIClient} = require('@moqada/simple-api-client');
+// after: not changed in import style
+const SimpleAPIClient from '@moqada/simple-api-client';
+```
+
+TypeScript
+
+```
+// before
+import SimpleAPIClient from '@moqada/simple-api-client';
+
+// after
+import {SimpleAPIClient} from '@moqada/simple-api-client';
+```
+
+
+
 <a name="0.4.0"></a>
 # [0.4.0](https://github.com/moqada/simple-api-client/compare/v0.3.1...v0.4.0) (2018-04-17)
 
