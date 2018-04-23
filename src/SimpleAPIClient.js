@@ -11,7 +11,7 @@ export type APIOption = {
 /**
  * Simple API Client
  */
-export default class SimpleAPIClient<APIResponse: Object = {error: any, response: any}> {
+export class SimpleAPIClient<APIResponse: Object = {error: any, response: any}> {
   endpoint: string;
   timeout: ?number;
 
@@ -144,3 +144,4 @@ export default class SimpleAPIClient<APIResponse: Object = {error: any, response
     return this.send('post', path, opts);
   }
 }
+export default SimpleAPIClient;

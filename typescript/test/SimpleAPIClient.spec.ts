@@ -1,6 +1,6 @@
 /* eslint-disable require-jsdoc */
 import * as assert from 'assert';
-import SimpleAPIClient from '@moqada/simple-api-client';
+import {SimpleAPIClient} from '@moqada/simple-api-client';
 
 const ENDPOINT = 'http://localhost';
 const HEADERS = {'X-Foo': 'xxxxx'};
