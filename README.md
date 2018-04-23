@@ -21,6 +21,8 @@ npm install --save @moqada/simple-api-client
 
 ## Usage
 
+### JavaScript
+
 ```javascript
 import SimpleAPIClient from '@moqada/simple-api-client';
 
@@ -61,6 +63,14 @@ client.getUsers({offset: 20, limit: 10}).then(({body}) => {
 }).catch(({error}) => {
   console.error(error);
 }):
+```
+
+### TypeScript
+
+A import style is different from JavaScript.
+
+```typescript
+import {SimpleAPIClient} from '@moqada/simple-api-client';
 ```
 
 ## Todo

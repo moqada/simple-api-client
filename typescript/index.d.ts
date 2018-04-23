@@ -11,7 +11,7 @@ declare module '@moqada/simple-api-client' {
     timeout?: number;
   };
 
-  class SimpleAPIClient<APIResponse = {error: any; response: any}> {
+  export class SimpleAPIClient<APIResponse = {error: any; response: any}> {
     endpoint: string;
     timeout: number | void;
 
@@ -25,6 +25,4 @@ declare module '@moqada/simple-api-client' {
     put(path: string, opts?: APIOption): Promise<APIResponse>;
     post(path: string, opts?: APIOption): Promise<APIResponse>;
   }
-
-  export default SimpleAPIClient;
 }
