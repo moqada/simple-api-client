@@ -44,7 +44,7 @@
 <p>Simple API Client for JavaScript.</p>
 <p><strong><em>WIP</em></strong></p>
 <h2 id="installation">Installation</h2><pre><code><code class="source-code prettyprint">npm install --save @moqada/simple-api-client</code>
-</code></pre><h2 id="usage">Usage</h2><pre><code class="lang-javascript"><code class="source-code prettyprint">import SimpleAPIClient from &apos;@moqada/simple-api-client&apos;;
+</code></pre><h2 id="usage">Usage</h2><h3 id="javascript">JavaScript</h3><pre><code class="lang-javascript"><code class="source-code prettyprint">import SimpleAPIClient from &apos;@moqada/simple-api-client&apos;;
 
 class APIClinet extends SimpleAPIClient {
 
@@ -83,6 +83,9 @@ client.getUsers({offset: 20, limit: 10}).then(({body}) =&gt; {
 }).catch(({error}) =&gt; {
   console.error(error);
 }):</code>
+</code></pre>
+<h3 id="typescript">TypeScript</h3><p>A import style is different from JavaScript.</p>
+<pre><code class="lang-typescript"><code class="source-code prettyprint">import {SimpleAPIClient} from &apos;@moqada/simple-api-client&apos;;</code>
 </code></pre>
 <h2 id="todo">Todo</h2><ul>
 <li>[ ] Test</li>
