@@ -45,7 +45,7 @@
     "prettier-eslint-cli": "^4.7.1",
     "ts-node": "^6.0.0",
     "typescript": "^2.8.1",
-    "typescript-eslint-parser": "^15.0.0"
+    "typescript-eslint-parser": "^20.0.0"
   },
   "files": [
     "lib",
