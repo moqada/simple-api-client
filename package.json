@@ -10,7 +10,7 @@
     "superagent": "^3.8.2"
   },
   "devDependencies": {
-    "@types/mocha": "^5.0.0",
+    "@types/mocha": "^7.0.1",
     "@types/node": "^9.6.4",
     "@types/superagent": "^3.5.8",
     "babel-cli": "^6.26.0",
